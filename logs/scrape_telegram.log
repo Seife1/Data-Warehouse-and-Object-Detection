@@ -1,0 +1,297 @@
+2024-10-12 14:53:45,921 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2024-10-12 14:53:46,155 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2024-10-12 14:53:47,683 - __main__ - INFO - Client started
+2024-10-12 14:53:47,949 - __main__ - WARNING - File @yetenaweg_last_id.json not found
+2024-10-12 14:53:48,315 - __main__ - INFO - Saved last_id 1181 for @yetenaweg
+2024-10-12 14:53:48,315 - __main__ - INFO - Saved last_id 1180 for @yetenaweg
+2024-10-12 14:53:48,316 - __main__ - INFO - Saved last_id 1179 for @yetenaweg
+2024-10-12 14:53:48,316 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:53:49,376 - __main__ - INFO - Downloaded media for message 1178
+2024-10-12 14:53:49,376 - __main__ - INFO - Saved last_id 1178 for @yetenaweg
+2024-10-12 14:53:49,377 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:53:50,317 - __main__ - INFO - Downloaded media for message 1177
+2024-10-12 14:53:50,318 - __main__ - INFO - Saved last_id 1177 for @yetenaweg
+2024-10-12 14:53:50,319 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:53:51,048 - __main__ - INFO - Downloaded media for message 1176
+2024-10-12 14:53:51,049 - __main__ - INFO - Saved last_id 1176 for @yetenaweg
+2024-10-12 14:53:51,049 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:53:51,496 - __main__ - INFO - Downloaded media for message 1175
+2024-10-12 14:53:51,498 - __main__ - INFO - Saved last_id 1175 for @yetenaweg
+2024-10-12 14:53:51,499 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:53:52,267 - __main__ - INFO - Downloaded media for message 1172
+2024-10-12 14:53:52,268 - __main__ - INFO - Saved last_id 1172 for @yetenaweg
+2024-10-12 14:53:52,269 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:53:52,972 - __main__ - INFO - Downloaded media for message 1171
+2024-10-12 14:53:52,974 - __main__ - INFO - Saved last_id 1171 for @yetenaweg
+2024-10-12 14:53:52,974 - __main__ - INFO - Saved last_id 1170 for @yetenaweg
+2024-10-12 14:53:52,975 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:53:53,272 - __main__ - INFO - Downloaded media for message 1169
+2024-10-12 14:53:53,274 - __main__ - INFO - Saved last_id 1169 for @yetenaweg
+2024-10-12 14:53:53,275 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:53:53,643 - __main__ - INFO - Downloaded media for message 1168
+2024-10-12 14:53:53,643 - __main__ - INFO - Saved last_id 1168 for @yetenaweg
+2024-10-12 14:53:53,644 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:53:54,051 - __main__ - INFO - Downloaded media for message 1167
+2024-10-12 14:53:54,051 - __main__ - INFO - Saved last_id 1167 for @yetenaweg
+2024-10-12 14:53:54,052 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:53:54,762 - __main__ - INFO - Downloaded media for message 1166
+2024-10-12 14:53:54,762 - __main__ - INFO - Saved last_id 1166 for @yetenaweg
+2024-10-12 14:53:54,764 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:53:55,088 - __main__ - INFO - Downloaded media for message 1165
+2024-10-12 14:53:55,089 - __main__ - INFO - Saved last_id 1165 for @yetenaweg
+2024-10-12 14:53:55,089 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:53:55,459 - __main__ - INFO - Downloaded media for message 1164
+2024-10-12 14:53:55,460 - __main__ - INFO - Saved last_id 1164 for @yetenaweg
+2024-10-12 14:53:55,461 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:07,914 - __main__ - INFO - Downloaded media for message 1163
+2024-10-12 14:54:07,915 - __main__ - INFO - Saved last_id 1163 for @yetenaweg
+2024-10-12 14:54:07,916 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:22,795 - __main__ - INFO - Downloaded media for message 1162
+2024-10-12 14:54:22,796 - __main__ - INFO - Saved last_id 1162 for @yetenaweg
+2024-10-12 14:54:22,797 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:43,620 - __main__ - INFO - Downloaded media for message 1161
+2024-10-12 14:54:43,621 - __main__ - INFO - Saved last_id 1161 for @yetenaweg
+2024-10-12 14:54:43,622 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:43,968 - __main__ - INFO - Downloaded media for message 1160
+2024-10-12 14:54:43,968 - __main__ - INFO - Saved last_id 1160 for @yetenaweg
+2024-10-12 14:54:43,969 - __main__ - INFO - Scraped @yetenaweg
+2024-10-12 14:54:44,285 - __main__ - WARNING - File @CheMed123_last_id.json not found
+2024-10-12 14:54:44,628 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:44,952 - __main__ - INFO - Downloaded media for message 97
+2024-10-12 14:54:44,953 - __main__ - INFO - Saved last_id 97 for @CheMed123
+2024-10-12 14:54:44,953 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:45,832 - __main__ - INFO - Downloaded media for message 96
+2024-10-12 14:54:45,832 - __main__ - INFO - Saved last_id 96 for @CheMed123
+2024-10-12 14:54:45,833 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:46,213 - __main__ - INFO - Downloaded media for message 95
+2024-10-12 14:54:46,214 - __main__ - INFO - Saved last_id 95 for @CheMed123
+2024-10-12 14:54:46,215 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:46,554 - __main__ - INFO - Downloaded media for message 94
+2024-10-12 14:54:46,555 - __main__ - INFO - Saved last_id 94 for @CheMed123
+2024-10-12 14:54:46,556 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:47,235 - __main__ - INFO - Downloaded media for message 93
+2024-10-12 14:54:47,236 - __main__ - INFO - Saved last_id 93 for @CheMed123
+2024-10-12 14:54:47,237 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:47,956 - __main__ - INFO - Downloaded media for message 92
+2024-10-12 14:54:47,957 - __main__ - INFO - Saved last_id 92 for @CheMed123
+2024-10-12 14:54:47,958 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:48,346 - __main__ - INFO - Downloaded media for message 91
+2024-10-12 14:54:48,346 - __main__ - INFO - Saved last_id 91 for @CheMed123
+2024-10-12 14:54:48,347 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:49,130 - __main__ - INFO - Downloaded media for message 90
+2024-10-12 14:54:49,131 - __main__ - INFO - Saved last_id 90 for @CheMed123
+2024-10-12 14:54:49,132 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:51,387 - __main__ - INFO - Downloaded media for message 89
+2024-10-12 14:54:51,387 - __main__ - INFO - Saved last_id 89 for @CheMed123
+2024-10-12 14:54:51,388 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:52,254 - __main__ - INFO - Downloaded media for message 88
+2024-10-12 14:54:52,255 - __main__ - INFO - Saved last_id 88 for @CheMed123
+2024-10-12 14:54:52,255 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:53,356 - __main__ - INFO - Downloaded media for message 87
+2024-10-12 14:54:53,358 - __main__ - INFO - Saved last_id 87 for @CheMed123
+2024-10-12 14:54:53,359 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:54,110 - __main__ - INFO - Downloaded media for message 86
+2024-10-12 14:54:54,110 - __main__ - INFO - Saved last_id 86 for @CheMed123
+2024-10-12 14:54:54,111 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:54,474 - __main__ - INFO - Downloaded media for message 85
+2024-10-12 14:54:54,475 - __main__ - INFO - Saved last_id 85 for @CheMed123
+2024-10-12 14:54:54,475 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:54,868 - __main__ - INFO - Downloaded media for message 82
+2024-10-12 14:54:54,868 - __main__ - INFO - Saved last_id 82 for @CheMed123
+2024-10-12 14:54:54,869 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:55,538 - __main__ - INFO - Downloaded media for message 81
+2024-10-12 14:54:55,538 - __main__ - INFO - Saved last_id 81 for @CheMed123
+2024-10-12 14:54:55,539 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:55,942 - __main__ - INFO - Downloaded media for message 80
+2024-10-12 14:54:55,942 - __main__ - INFO - Saved last_id 80 for @CheMed123
+2024-10-12 14:54:55,943 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:56,675 - __main__ - INFO - Downloaded media for message 79
+2024-10-12 14:54:56,675 - __main__ - INFO - Saved last_id 79 for @CheMed123
+2024-10-12 14:54:56,676 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:57,395 - __main__ - INFO - Downloaded media for message 78
+2024-10-12 14:54:57,396 - __main__ - INFO - Saved last_id 78 for @CheMed123
+2024-10-12 14:54:57,397 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:58,105 - __main__ - INFO - Downloaded media for message 77
+2024-10-12 14:54:58,106 - __main__ - INFO - Saved last_id 77 for @CheMed123
+2024-10-12 14:54:58,107 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:58,929 - __main__ - INFO - Downloaded media for message 76
+2024-10-12 14:54:58,930 - __main__ - INFO - Saved last_id 76 for @CheMed123
+2024-10-12 14:54:58,931 - __main__ - INFO - Scraped @CheMed123
+2024-10-12 14:54:59,319 - __main__ - WARNING - File @lobelia4cosmetics_last_id.json not found
+2024-10-12 14:54:59,607 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:54:59,947 - __main__ - INFO - Downloaded media for message 12450
+2024-10-12 14:54:59,948 - __main__ - INFO - Saved last_id 12450 for @lobelia4cosmetics
+2024-10-12 14:54:59,949 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:00,395 - __main__ - INFO - Downloaded media for message 12449
+2024-10-12 14:55:00,395 - __main__ - INFO - Saved last_id 12449 for @lobelia4cosmetics
+2024-10-12 14:55:00,396 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:01,167 - __main__ - INFO - Downloaded media for message 12448
+2024-10-12 14:55:01,168 - __main__ - INFO - Saved last_id 12448 for @lobelia4cosmetics
+2024-10-12 14:55:01,168 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:01,555 - __main__ - INFO - Downloaded media for message 12447
+2024-10-12 14:55:01,555 - __main__ - INFO - Saved last_id 12447 for @lobelia4cosmetics
+2024-10-12 14:55:01,556 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:01,920 - __main__ - INFO - Downloaded media for message 12446
+2024-10-12 14:55:01,921 - __main__ - INFO - Saved last_id 12446 for @lobelia4cosmetics
+2024-10-12 14:55:01,922 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:02,563 - __main__ - INFO - Downloaded media for message 12445
+2024-10-12 14:55:02,564 - __main__ - INFO - Saved last_id 12445 for @lobelia4cosmetics
+2024-10-12 14:55:02,564 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:04,125 - __main__ - INFO - Downloaded media for message 12444
+2024-10-12 14:55:04,126 - __main__ - INFO - Saved last_id 12444 for @lobelia4cosmetics
+2024-10-12 14:55:04,126 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:04,966 - __main__ - INFO - Downloaded media for message 12443
+2024-10-12 14:55:04,967 - __main__ - INFO - Saved last_id 12443 for @lobelia4cosmetics
+2024-10-12 14:55:04,967 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:05,678 - __main__ - INFO - Downloaded media for message 12442
+2024-10-12 14:55:05,679 - __main__ - INFO - Saved last_id 12442 for @lobelia4cosmetics
+2024-10-12 14:55:05,679 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:06,024 - __main__ - INFO - Downloaded media for message 12441
+2024-10-12 14:55:06,025 - __main__ - INFO - Saved last_id 12441 for @lobelia4cosmetics
+2024-10-12 14:55:06,025 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:06,337 - __main__ - INFO - Downloaded media for message 12440
+2024-10-12 14:55:06,338 - __main__ - INFO - Saved last_id 12440 for @lobelia4cosmetics
+2024-10-12 14:55:06,338 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:06,737 - __main__ - INFO - Downloaded media for message 12439
+2024-10-12 14:55:06,738 - __main__ - INFO - Saved last_id 12439 for @lobelia4cosmetics
+2024-10-12 14:55:06,738 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:07,047 - __main__ - INFO - Downloaded media for message 12438
+2024-10-12 14:55:07,048 - __main__ - INFO - Saved last_id 12438 for @lobelia4cosmetics
+2024-10-12 14:55:07,049 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:07,363 - __main__ - INFO - Downloaded media for message 12437
+2024-10-12 14:55:07,364 - __main__ - INFO - Saved last_id 12437 for @lobelia4cosmetics
+2024-10-12 14:55:07,365 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:08,209 - __main__ - INFO - Downloaded media for message 12436
+2024-10-12 14:55:08,210 - __main__ - INFO - Saved last_id 12436 for @lobelia4cosmetics
+2024-10-12 14:55:08,210 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:08,579 - __main__ - INFO - Downloaded media for message 12435
+2024-10-12 14:55:08,580 - __main__ - INFO - Saved last_id 12435 for @lobelia4cosmetics
+2024-10-12 14:55:08,580 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:09,002 - __main__ - INFO - Downloaded media for message 12434
+2024-10-12 14:55:09,003 - __main__ - INFO - Saved last_id 12434 for @lobelia4cosmetics
+2024-10-12 14:55:09,004 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:09,302 - __main__ - INFO - Downloaded media for message 12433
+2024-10-12 14:55:09,303 - __main__ - INFO - Saved last_id 12433 for @lobelia4cosmetics
+2024-10-12 14:55:09,303 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:10,152 - __main__ - INFO - Downloaded media for message 12432
+2024-10-12 14:55:10,153 - __main__ - INFO - Saved last_id 12432 for @lobelia4cosmetics
+2024-10-12 14:55:10,154 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:10,413 - __main__ - INFO - Downloaded media for message 12431
+2024-10-12 14:55:10,414 - __main__ - INFO - Saved last_id 12431 for @lobelia4cosmetics
+2024-10-12 14:55:10,415 - __main__ - INFO - Scraped @lobelia4cosmetics
+2024-10-12 14:55:10,714 - __main__ - WARNING - File @DoctorsET_last_id.json not found
+2024-10-12 14:55:11,000 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:11,663 - __main__ - INFO - Downloaded media for message 864
+2024-10-12 14:55:11,663 - __main__ - INFO - Saved last_id 864 for @DoctorsET
+2024-10-12 14:55:11,664 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:12,340 - __main__ - INFO - Downloaded media for message 863
+2024-10-12 14:55:12,341 - __main__ - INFO - Saved last_id 863 for @DoctorsET
+2024-10-12 14:55:12,342 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:13,000 - __main__ - INFO - Downloaded media for message 862
+2024-10-12 14:55:13,001 - __main__ - INFO - Saved last_id 862 for @DoctorsET
+2024-10-12 14:55:13,002 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:13,742 - __main__ - INFO - Downloaded media for message 861
+2024-10-12 14:55:13,744 - __main__ - INFO - Saved last_id 861 for @DoctorsET
+2024-10-12 14:55:13,744 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:14,195 - __main__ - INFO - Downloaded media for message 860
+2024-10-12 14:55:14,196 - __main__ - INFO - Saved last_id 860 for @DoctorsET
+2024-10-12 14:55:14,197 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:14,592 - __main__ - INFO - Downloaded media for message 859
+2024-10-12 14:55:14,593 - __main__ - INFO - Saved last_id 859 for @DoctorsET
+2024-10-12 14:55:14,594 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:15,671 - __main__ - INFO - Downloaded media for message 848
+2024-10-12 14:55:15,672 - __main__ - INFO - Saved last_id 848 for @DoctorsET
+2024-10-12 14:55:15,673 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:16,874 - __main__ - INFO - Downloaded media for message 847
+2024-10-12 14:55:16,875 - __main__ - INFO - Saved last_id 847 for @DoctorsET
+2024-10-12 14:55:16,876 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:17,934 - __main__ - INFO - Downloaded media for message 846
+2024-10-12 14:55:17,936 - __main__ - INFO - Saved last_id 846 for @DoctorsET
+2024-10-12 14:55:17,937 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:18,713 - __main__ - INFO - Downloaded media for message 845
+2024-10-12 14:55:18,714 - __main__ - INFO - Saved last_id 845 for @DoctorsET
+2024-10-12 14:55:18,715 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:19,442 - __main__ - INFO - Downloaded media for message 844
+2024-10-12 14:55:19,443 - __main__ - INFO - Saved last_id 844 for @DoctorsET
+2024-10-12 14:55:19,444 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:20,176 - __main__ - INFO - Downloaded media for message 843
+2024-10-12 14:55:20,177 - __main__ - INFO - Saved last_id 843 for @DoctorsET
+2024-10-12 14:55:20,178 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:20,540 - __main__ - INFO - Downloaded media for message 842
+2024-10-12 14:55:20,540 - __main__ - INFO - Saved last_id 842 for @DoctorsET
+2024-10-12 14:55:20,541 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:20,907 - __main__ - INFO - Downloaded media for message 841
+2024-10-12 14:55:20,907 - __main__ - INFO - Saved last_id 841 for @DoctorsET
+2024-10-12 14:55:20,908 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:21,322 - __main__ - INFO - Downloaded media for message 840
+2024-10-12 14:55:21,322 - __main__ - INFO - Saved last_id 840 for @DoctorsET
+2024-10-12 14:55:21,323 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:22,315 - __main__ - INFO - Downloaded media for message 839
+2024-10-12 14:55:22,315 - __main__ - INFO - Saved last_id 839 for @DoctorsET
+2024-10-12 14:55:22,316 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:22,970 - __main__ - INFO - Downloaded media for message 836
+2024-10-12 14:55:22,971 - __main__ - INFO - Saved last_id 836 for @DoctorsET
+2024-10-12 14:55:22,971 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:23,375 - __main__ - INFO - Downloaded media for message 835
+2024-10-12 14:55:23,375 - __main__ - INFO - Saved last_id 835 for @DoctorsET
+2024-10-12 14:55:23,376 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:23,710 - __main__ - INFO - Downloaded media for message 834
+2024-10-12 14:55:23,710 - __main__ - INFO - Saved last_id 834 for @DoctorsET
+2024-10-12 14:55:23,711 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:24,165 - __main__ - INFO - Downloaded media for message 833
+2024-10-12 14:55:24,166 - __main__ - INFO - Saved last_id 833 for @DoctorsET
+2024-10-12 14:55:24,167 - __main__ - INFO - Scraped @DoctorsET
+2024-10-12 14:55:24,509 - __main__ - WARNING - File @EAHCI_last_id.json not found
+2024-10-12 14:55:24,871 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:25,323 - __main__ - INFO - Downloaded media for message 2399
+2024-10-12 14:55:25,324 - __main__ - INFO - Saved last_id 2399 for @EAHCI
+2024-10-12 14:55:25,325 - __main__ - INFO - Saved last_id 2397 for @EAHCI
+2024-10-12 14:55:25,326 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:25,677 - __main__ - INFO - Downloaded media for message 2396
+2024-10-12 14:55:25,678 - __main__ - INFO - Saved last_id 2396 for @EAHCI
+2024-10-12 14:55:25,679 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:25,998 - __main__ - INFO - Downloaded media for message 2395
+2024-10-12 14:55:26,000 - __main__ - INFO - Saved last_id 2395 for @EAHCI
+2024-10-12 14:55:26,001 - __main__ - INFO - Saved last_id 2394 for @EAHCI
+2024-10-12 14:55:26,002 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:26,359 - __main__ - INFO - Downloaded media for message 2393
+2024-10-12 14:55:26,360 - __main__ - INFO - Saved last_id 2393 for @EAHCI
+2024-10-12 14:55:26,361 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:26,898 - __main__ - INFO - Downloaded media for message 2392
+2024-10-12 14:55:26,899 - __main__ - INFO - Saved last_id 2392 for @EAHCI
+2024-10-12 14:55:26,900 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:27,250 - __main__ - INFO - Downloaded media for message 2391
+2024-10-12 14:55:27,251 - __main__ - INFO - Saved last_id 2391 for @EAHCI
+2024-10-12 14:55:27,252 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:27,593 - __main__ - INFO - Downloaded media for message 2390
+2024-10-12 14:55:27,594 - __main__ - INFO - Saved last_id 2390 for @EAHCI
+2024-10-12 14:55:27,595 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:28,267 - __main__ - INFO - Downloaded media for message 2389
+2024-10-12 14:55:28,268 - __main__ - INFO - Saved last_id 2389 for @EAHCI
+2024-10-12 14:55:28,269 - __main__ - INFO - Saved last_id 2388 for @EAHCI
+2024-10-12 14:55:28,270 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:28,626 - __main__ - INFO - Downloaded media for message 2387
+2024-10-12 14:55:28,627 - __main__ - INFO - Saved last_id 2387 for @EAHCI
+2024-10-12 14:55:28,629 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:29,326 - __main__ - INFO - Downloaded media for message 2386
+2024-10-12 14:55:29,328 - __main__ - INFO - Saved last_id 2386 for @EAHCI
+2024-10-12 14:55:29,328 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:29,640 - __main__ - INFO - Downloaded media for message 2385
+2024-10-12 14:55:29,641 - __main__ - INFO - Saved last_id 2385 for @EAHCI
+2024-10-12 14:55:29,641 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:29,944 - __main__ - INFO - Downloaded media for message 2384
+2024-10-12 14:55:29,945 - __main__ - INFO - Saved last_id 2384 for @EAHCI
+2024-10-12 14:55:29,946 - __main__ - INFO - Saved last_id 2383 for @EAHCI
+2024-10-12 14:55:29,947 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:30,593 - __main__ - INFO - Downloaded media for message 2382
+2024-10-12 14:55:30,594 - __main__ - INFO - Saved last_id 2382 for @EAHCI
+2024-10-12 14:55:30,595 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:31,232 - __main__ - INFO - Downloaded media for message 2379
+2024-10-12 14:55:31,233 - __main__ - INFO - Saved last_id 2379 for @EAHCI
+2024-10-12 14:55:31,234 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:31,499 - __main__ - INFO - Downloaded media for message 2378
+2024-10-12 14:55:31,500 - __main__ - INFO - Saved last_id 2378 for @EAHCI
+2024-10-12 14:55:31,501 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 14:55:31,812 - __main__ - INFO - Downloaded media for message 2377
+2024-10-12 14:55:31,813 - __main__ - INFO - Saved last_id 2377 for @EAHCI
+2024-10-12 14:55:31,814 - __main__ - INFO - Scraped @EAHCI
