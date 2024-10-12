@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 import os
 import csv
-import logging
 import json
 from telethon import TelegramClient
 
@@ -12,20 +11,29 @@ api_hash = os.getenv('API_HASH')
 phone = os.getenv('PHONE_NUMBER')
 
 # Set up logging
-logging.basicConfig(
-    filename='./logs/scrape_telegram.log',
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-    
-)
+from logger_config import setup_logging
 
-logger = logging.getLogger(__name__)
+# Set up logging
+logger = setup_logging()
 
 # Set up Telegram client with scrapping session file
 client = TelegramClient('scrapping_session', api_id, api_hash)
 
 # Function to get the last message ID
 def get_last_id(channel_username):
+    """
+    Retrieve the last message ID for a given Telegram channel.
+
+    This function reads a JSON file named '{channel_username}_last_id.json' located in the './data/raw/' directory.
+    The JSON file is expected to contain a key 'last_id' which holds the last message ID. If the file or the key
+    does not exist, the function returns 0.
+
+    Args:
+        channel_username (str): The username of the Telegram channel.
+
+    Returns:
+        int: The last message ID if found, otherwise 0.
+    """
     try:
         with open('./data/raw/{channel_username}_last_id.json', 'r') as f:
             last_id = json.load(f).get('last_id', 0)
@@ -36,12 +44,45 @@ def get_last_id(channel_username):
     
 # Function to save the last message ID
 def save_last_id(channel_username, last_id):
+    """
+    Save the last message ID for a given Telegram channel to a JSON file.
+
+    Args:
+        channel_username (str): The username of the Telegram channel.
+        last_id (int): The last message ID to be saved.
+
+    Writes:
+        A JSON file named '{channel_username}_last_id.json' in the './data/raw/' directory
+        containing the last message ID.
+    """
     with open(f'./data/raw/{channel_username}_last_id.json', 'w') as f:
         json.dump({'last_id': last_id}, f)
         logger.info(f"Saved last_id {last_id} for {channel_username}")  
 
 # Function to scrape a channel
 async def scrape_channel(client, channel_username, writer, media_dir):
+    """
+    Scrapes messages from a specified Telegram channel and writes the data to a CSV file.
+
+    Args:
+        client (TelegramClient): The Telegram client instance.
+        channel_username (str): The username of the Telegram channel to scrape.
+        writer (csv.writer): The CSV writer object to write the scraped data.
+        media_dir (str): The directory where media files will be saved.
+
+    Writes:
+        CSV file with the following columns:
+            - Channel Title
+            - Channel Username
+            - Message ID
+            - Message Text
+            - Message Date
+            - Media Path (if any)
+
+    Logs:
+        - Information about downloaded media files.
+        - Errors encountered during the scraping process.
+    """
     try:
         entity = await client.get_entity(channel_username)
         channel_title = entity.title
