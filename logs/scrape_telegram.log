@@ -295,3 +295,299 @@
 2024-10-12 14:55:31,812 - __main__ - INFO - Downloaded media for message 2377
 2024-10-12 14:55:31,813 - __main__ - INFO - Saved last_id 2377 for @EAHCI
 2024-10-12 14:55:31,814 - __main__ - INFO - Scraped @EAHCI
+2024-10-12 18:42:06,327 - logger_config - INFO - Logging is set up.
+2024-10-12 18:42:06,330 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2024-10-12 18:42:06,647 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2024-10-12 18:42:08,218 - logger_config - INFO - Client started
+2024-10-12 18:42:08,497 - logger_config - WARNING - File @yetenaweg_last_id.json not found
+2024-10-12 18:42:08,860 - logger_config - INFO - Saved last_id 1181 for @yetenaweg
+2024-10-12 18:42:08,861 - logger_config - INFO - Saved last_id 1180 for @yetenaweg
+2024-10-12 18:42:08,862 - logger_config - INFO - Saved last_id 1179 for @yetenaweg
+2024-10-12 18:42:08,862 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:09,937 - logger_config - INFO - Downloaded media for message 1178
+2024-10-12 18:42:09,938 - logger_config - INFO - Saved last_id 1178 for @yetenaweg
+2024-10-12 18:42:09,938 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:10,614 - logger_config - INFO - Downloaded media for message 1177
+2024-10-12 18:42:10,614 - logger_config - INFO - Saved last_id 1177 for @yetenaweg
+2024-10-12 18:42:10,615 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:11,300 - logger_config - INFO - Downloaded media for message 1176
+2024-10-12 18:42:11,300 - logger_config - INFO - Saved last_id 1176 for @yetenaweg
+2024-10-12 18:42:11,302 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:11,633 - logger_config - INFO - Downloaded media for message 1175
+2024-10-12 18:42:11,635 - logger_config - INFO - Saved last_id 1175 for @yetenaweg
+2024-10-12 18:42:11,636 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:12,342 - logger_config - INFO - Downloaded media for message 1172
+2024-10-12 18:42:12,343 - logger_config - INFO - Saved last_id 1172 for @yetenaweg
+2024-10-12 18:42:12,344 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:13,110 - logger_config - INFO - Downloaded media for message 1171
+2024-10-12 18:42:13,111 - logger_config - INFO - Saved last_id 1171 for @yetenaweg
+2024-10-12 18:42:13,112 - logger_config - INFO - Saved last_id 1170 for @yetenaweg
+2024-10-12 18:42:13,112 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:13,429 - logger_config - INFO - Downloaded media for message 1169
+2024-10-12 18:42:13,430 - logger_config - INFO - Saved last_id 1169 for @yetenaweg
+2024-10-12 18:42:13,431 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:13,801 - logger_config - INFO - Downloaded media for message 1168
+2024-10-12 18:42:13,802 - logger_config - INFO - Saved last_id 1168 for @yetenaweg
+2024-10-12 18:42:13,802 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:14,165 - logger_config - INFO - Downloaded media for message 1167
+2024-10-12 18:42:14,166 - logger_config - INFO - Saved last_id 1167 for @yetenaweg
+2024-10-12 18:42:14,166 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:14,848 - logger_config - INFO - Downloaded media for message 1166
+2024-10-12 18:42:14,849 - logger_config - INFO - Saved last_id 1166 for @yetenaweg
+2024-10-12 18:42:14,850 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:15,241 - logger_config - INFO - Downloaded media for message 1165
+2024-10-12 18:42:15,241 - logger_config - INFO - Saved last_id 1165 for @yetenaweg
+2024-10-12 18:42:15,242 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:15,589 - logger_config - INFO - Downloaded media for message 1164
+2024-10-12 18:42:15,590 - logger_config - INFO - Saved last_id 1164 for @yetenaweg
+2024-10-12 18:42:15,591 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:29,317 - logger_config - INFO - Downloaded media for message 1163
+2024-10-12 18:42:29,318 - logger_config - INFO - Saved last_id 1163 for @yetenaweg
+2024-10-12 18:42:29,319 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:42:47,432 - logger_config - INFO - Downloaded media for message 1162
+2024-10-12 18:42:47,433 - logger_config - INFO - Saved last_id 1162 for @yetenaweg
+2024-10-12 18:42:47,434 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:16,260 - logger_config - INFO - Downloaded media for message 1161
+2024-10-12 18:43:16,260 - logger_config - INFO - Saved last_id 1161 for @yetenaweg
+2024-10-12 18:43:16,261 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:16,742 - logger_config - INFO - Downloaded media for message 1160
+2024-10-12 18:43:16,743 - logger_config - INFO - Saved last_id 1160 for @yetenaweg
+2024-10-12 18:43:16,743 - logger_config - INFO - Scraped @yetenaweg
+2024-10-12 18:43:17,101 - logger_config - WARNING - File @CheMed123_last_id.json not found
+2024-10-12 18:43:17,432 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:17,875 - logger_config - INFO - Downloaded media for message 97
+2024-10-12 18:43:17,876 - logger_config - INFO - Saved last_id 97 for @CheMed123
+2024-10-12 18:43:17,877 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:18,742 - logger_config - INFO - Downloaded media for message 96
+2024-10-12 18:43:18,743 - logger_config - INFO - Saved last_id 96 for @CheMed123
+2024-10-12 18:43:18,743 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:19,253 - logger_config - INFO - Downloaded media for message 95
+2024-10-12 18:43:19,254 - logger_config - INFO - Saved last_id 95 for @CheMed123
+2024-10-12 18:43:19,255 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:19,803 - logger_config - INFO - Downloaded media for message 94
+2024-10-12 18:43:19,803 - logger_config - INFO - Saved last_id 94 for @CheMed123
+2024-10-12 18:43:19,804 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:20,685 - logger_config - INFO - Downloaded media for message 93
+2024-10-12 18:43:20,686 - logger_config - INFO - Saved last_id 93 for @CheMed123
+2024-10-12 18:43:20,686 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:21,617 - logger_config - INFO - Downloaded media for message 92
+2024-10-12 18:43:21,617 - logger_config - INFO - Saved last_id 92 for @CheMed123
+2024-10-12 18:43:21,618 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:22,145 - logger_config - INFO - Downloaded media for message 91
+2024-10-12 18:43:22,146 - logger_config - INFO - Saved last_id 91 for @CheMed123
+2024-10-12 18:43:22,147 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:23,174 - logger_config - INFO - Downloaded media for message 90
+2024-10-12 18:43:23,175 - logger_config - INFO - Saved last_id 90 for @CheMed123
+2024-10-12 18:43:23,176 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:26,169 - logger_config - INFO - Downloaded media for message 89
+2024-10-12 18:43:26,170 - logger_config - INFO - Saved last_id 89 for @CheMed123
+2024-10-12 18:43:26,171 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:27,106 - logger_config - INFO - Downloaded media for message 88
+2024-10-12 18:43:27,107 - logger_config - INFO - Saved last_id 88 for @CheMed123
+2024-10-12 18:43:27,109 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:28,273 - logger_config - INFO - Downloaded media for message 87
+2024-10-12 18:43:28,274 - logger_config - INFO - Saved last_id 87 for @CheMed123
+2024-10-12 18:43:28,276 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:29,195 - logger_config - INFO - Downloaded media for message 86
+2024-10-12 18:43:29,196 - logger_config - INFO - Saved last_id 86 for @CheMed123
+2024-10-12 18:43:29,196 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:29,646 - logger_config - INFO - Downloaded media for message 85
+2024-10-12 18:43:29,647 - logger_config - INFO - Saved last_id 85 for @CheMed123
+2024-10-12 18:43:29,648 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:30,121 - logger_config - INFO - Downloaded media for message 82
+2024-10-12 18:43:30,122 - logger_config - INFO - Saved last_id 82 for @CheMed123
+2024-10-12 18:43:30,123 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:30,923 - logger_config - INFO - Downloaded media for message 81
+2024-10-12 18:43:30,923 - logger_config - INFO - Saved last_id 81 for @CheMed123
+2024-10-12 18:43:30,924 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:31,389 - logger_config - INFO - Downloaded media for message 80
+2024-10-12 18:43:31,389 - logger_config - INFO - Saved last_id 80 for @CheMed123
+2024-10-12 18:43:31,390 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:32,282 - logger_config - INFO - Downloaded media for message 79
+2024-10-12 18:43:32,283 - logger_config - INFO - Saved last_id 79 for @CheMed123
+2024-10-12 18:43:32,284 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:33,130 - logger_config - INFO - Downloaded media for message 78
+2024-10-12 18:43:33,131 - logger_config - INFO - Saved last_id 78 for @CheMed123
+2024-10-12 18:43:33,132 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:34,009 - logger_config - INFO - Downloaded media for message 77
+2024-10-12 18:43:34,010 - logger_config - INFO - Saved last_id 77 for @CheMed123
+2024-10-12 18:43:34,012 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:34,919 - logger_config - INFO - Downloaded media for message 76
+2024-10-12 18:43:34,921 - logger_config - INFO - Saved last_id 76 for @CheMed123
+2024-10-12 18:43:34,921 - logger_config - INFO - Scraped @CheMed123
+2024-10-12 18:43:35,228 - logger_config - WARNING - File @lobelia4cosmetics_last_id.json not found
+2024-10-12 18:43:35,540 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:35,918 - logger_config - INFO - Downloaded media for message 12459
+2024-10-12 18:43:35,919 - logger_config - INFO - Saved last_id 12459 for @lobelia4cosmetics
+2024-10-12 18:43:35,920 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:36,262 - logger_config - INFO - Downloaded media for message 12458
+2024-10-12 18:43:36,263 - logger_config - INFO - Saved last_id 12458 for @lobelia4cosmetics
+2024-10-12 18:43:36,264 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:36,547 - logger_config - INFO - Downloaded media for message 12457
+2024-10-12 18:43:36,549 - logger_config - INFO - Saved last_id 12457 for @lobelia4cosmetics
+2024-10-12 18:43:36,550 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:36,970 - logger_config - INFO - Downloaded media for message 12456
+2024-10-12 18:43:36,971 - logger_config - INFO - Saved last_id 12456 for @lobelia4cosmetics
+2024-10-12 18:43:36,972 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:37,337 - logger_config - INFO - Downloaded media for message 12455
+2024-10-12 18:43:37,338 - logger_config - INFO - Saved last_id 12455 for @lobelia4cosmetics
+2024-10-12 18:43:37,340 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:37,712 - logger_config - INFO - Downloaded media for message 12454
+2024-10-12 18:43:37,713 - logger_config - INFO - Saved last_id 12454 for @lobelia4cosmetics
+2024-10-12 18:43:37,714 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:38,221 - logger_config - INFO - Downloaded media for message 12453
+2024-10-12 18:43:38,222 - logger_config - INFO - Saved last_id 12453 for @lobelia4cosmetics
+2024-10-12 18:43:38,223 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:39,040 - logger_config - INFO - Downloaded media for message 12452
+2024-10-12 18:43:39,041 - logger_config - INFO - Saved last_id 12452 for @lobelia4cosmetics
+2024-10-12 18:43:39,042 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:39,888 - logger_config - INFO - Downloaded media for message 12451
+2024-10-12 18:43:39,888 - logger_config - INFO - Saved last_id 12451 for @lobelia4cosmetics
+2024-10-12 18:43:39,889 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:40,257 - logger_config - INFO - Downloaded media for message 12450
+2024-10-12 18:43:40,258 - logger_config - INFO - Saved last_id 12450 for @lobelia4cosmetics
+2024-10-12 18:43:40,259 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:40,776 - logger_config - INFO - Downloaded media for message 12449
+2024-10-12 18:43:40,777 - logger_config - INFO - Saved last_id 12449 for @lobelia4cosmetics
+2024-10-12 18:43:40,778 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:41,680 - logger_config - INFO - Downloaded media for message 12448
+2024-10-12 18:43:41,681 - logger_config - INFO - Saved last_id 12448 for @lobelia4cosmetics
+2024-10-12 18:43:41,681 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:42,107 - logger_config - INFO - Downloaded media for message 12447
+2024-10-12 18:43:42,108 - logger_config - INFO - Saved last_id 12447 for @lobelia4cosmetics
+2024-10-12 18:43:42,109 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:42,415 - logger_config - INFO - Downloaded media for message 12446
+2024-10-12 18:43:42,416 - logger_config - INFO - Saved last_id 12446 for @lobelia4cosmetics
+2024-10-12 18:43:42,417 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:43,128 - logger_config - INFO - Downloaded media for message 12445
+2024-10-12 18:43:43,129 - logger_config - INFO - Saved last_id 12445 for @lobelia4cosmetics
+2024-10-12 18:43:43,130 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:45,064 - logger_config - INFO - Downloaded media for message 12444
+2024-10-12 18:43:45,065 - logger_config - INFO - Saved last_id 12444 for @lobelia4cosmetics
+2024-10-12 18:43:45,066 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:45,944 - logger_config - INFO - Downloaded media for message 12443
+2024-10-12 18:43:45,945 - logger_config - INFO - Saved last_id 12443 for @lobelia4cosmetics
+2024-10-12 18:43:45,946 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:46,754 - logger_config - INFO - Downloaded media for message 12442
+2024-10-12 18:43:46,755 - logger_config - INFO - Saved last_id 12442 for @lobelia4cosmetics
+2024-10-12 18:43:46,756 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:47,210 - logger_config - INFO - Downloaded media for message 12441
+2024-10-12 18:43:47,210 - logger_config - INFO - Saved last_id 12441 for @lobelia4cosmetics
+2024-10-12 18:43:47,211 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:47,551 - logger_config - INFO - Downloaded media for message 12440
+2024-10-12 18:43:47,551 - logger_config - INFO - Saved last_id 12440 for @lobelia4cosmetics
+2024-10-12 18:43:47,552 - logger_config - INFO - Scraped @lobelia4cosmetics
+2024-10-12 18:43:48,061 - logger_config - WARNING - File @DoctorsET_last_id.json not found
+2024-10-12 18:43:48,447 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:49,361 - logger_config - INFO - Downloaded media for message 864
+2024-10-12 18:43:49,362 - logger_config - INFO - Saved last_id 864 for @DoctorsET
+2024-10-12 18:43:49,362 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:50,296 - logger_config - INFO - Downloaded media for message 863
+2024-10-12 18:43:50,297 - logger_config - INFO - Saved last_id 863 for @DoctorsET
+2024-10-12 18:43:50,297 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:51,097 - logger_config - INFO - Downloaded media for message 862
+2024-10-12 18:43:51,098 - logger_config - INFO - Saved last_id 862 for @DoctorsET
+2024-10-12 18:43:51,099 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:52,031 - logger_config - INFO - Downloaded media for message 861
+2024-10-12 18:43:52,032 - logger_config - INFO - Saved last_id 861 for @DoctorsET
+2024-10-12 18:43:52,033 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:52,570 - logger_config - INFO - Downloaded media for message 860
+2024-10-12 18:43:52,571 - logger_config - INFO - Saved last_id 860 for @DoctorsET
+2024-10-12 18:43:52,572 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:53,109 - logger_config - INFO - Downloaded media for message 859
+2024-10-12 18:43:53,110 - logger_config - INFO - Saved last_id 859 for @DoctorsET
+2024-10-12 18:43:53,112 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:54,359 - logger_config - INFO - Downloaded media for message 848
+2024-10-12 18:43:54,360 - logger_config - INFO - Saved last_id 848 for @DoctorsET
+2024-10-12 18:43:54,360 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:55,266 - logger_config - INFO - Downloaded media for message 847
+2024-10-12 18:43:55,267 - logger_config - INFO - Saved last_id 847 for @DoctorsET
+2024-10-12 18:43:55,268 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:56,272 - logger_config - INFO - Downloaded media for message 846
+2024-10-12 18:43:56,272 - logger_config - INFO - Saved last_id 846 for @DoctorsET
+2024-10-12 18:43:56,273 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:57,110 - logger_config - INFO - Downloaded media for message 845
+2024-10-12 18:43:57,111 - logger_config - INFO - Saved last_id 845 for @DoctorsET
+2024-10-12 18:43:57,112 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:58,112 - logger_config - INFO - Downloaded media for message 844
+2024-10-12 18:43:58,114 - logger_config - INFO - Saved last_id 844 for @DoctorsET
+2024-10-12 18:43:58,115 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:59,050 - logger_config - INFO - Downloaded media for message 843
+2024-10-12 18:43:59,052 - logger_config - INFO - Saved last_id 843 for @DoctorsET
+2024-10-12 18:43:59,053 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:59,508 - logger_config - INFO - Downloaded media for message 842
+2024-10-12 18:43:59,508 - logger_config - INFO - Saved last_id 842 for @DoctorsET
+2024-10-12 18:43:59,509 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:43:59,953 - logger_config - INFO - Downloaded media for message 841
+2024-10-12 18:43:59,954 - logger_config - INFO - Saved last_id 841 for @DoctorsET
+2024-10-12 18:43:59,955 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:00,388 - logger_config - INFO - Downloaded media for message 840
+2024-10-12 18:44:00,389 - logger_config - INFO - Saved last_id 840 for @DoctorsET
+2024-10-12 18:44:00,390 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:01,297 - logger_config - INFO - Downloaded media for message 839
+2024-10-12 18:44:01,298 - logger_config - INFO - Saved last_id 839 for @DoctorsET
+2024-10-12 18:44:01,299 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:02,271 - logger_config - INFO - Downloaded media for message 836
+2024-10-12 18:44:02,272 - logger_config - INFO - Saved last_id 836 for @DoctorsET
+2024-10-12 18:44:02,273 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:02,763 - logger_config - INFO - Downloaded media for message 835
+2024-10-12 18:44:02,764 - logger_config - INFO - Saved last_id 835 for @DoctorsET
+2024-10-12 18:44:02,764 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:03,226 - logger_config - INFO - Downloaded media for message 834
+2024-10-12 18:44:03,226 - logger_config - INFO - Saved last_id 834 for @DoctorsET
+2024-10-12 18:44:03,227 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:03,765 - logger_config - INFO - Downloaded media for message 833
+2024-10-12 18:44:03,765 - logger_config - INFO - Saved last_id 833 for @DoctorsET
+2024-10-12 18:44:03,766 - logger_config - INFO - Scraped @DoctorsET
+2024-10-12 18:44:04,002 - logger_config - WARNING - File @EAHCI_last_id.json not found
+2024-10-12 18:44:04,419 - logger_config - INFO - Saved last_id 2400 for @EAHCI
+2024-10-12 18:44:04,419 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:05,035 - logger_config - INFO - Downloaded media for message 2399
+2024-10-12 18:44:05,036 - logger_config - INFO - Saved last_id 2399 for @EAHCI
+2024-10-12 18:44:05,037 - logger_config - INFO - Saved last_id 2397 for @EAHCI
+2024-10-12 18:44:05,038 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:05,467 - logger_config - INFO - Downloaded media for message 2396
+2024-10-12 18:44:05,468 - logger_config - INFO - Saved last_id 2396 for @EAHCI
+2024-10-12 18:44:05,469 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:05,752 - logger_config - INFO - Downloaded media for message 2395
+2024-10-12 18:44:05,753 - logger_config - INFO - Saved last_id 2395 for @EAHCI
+2024-10-12 18:44:05,754 - logger_config - INFO - Saved last_id 2394 for @EAHCI
+2024-10-12 18:44:05,755 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:06,082 - logger_config - INFO - Downloaded media for message 2393
+2024-10-12 18:44:06,084 - logger_config - INFO - Saved last_id 2393 for @EAHCI
+2024-10-12 18:44:06,085 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:06,523 - logger_config - INFO - Downloaded media for message 2392
+2024-10-12 18:44:06,524 - logger_config - INFO - Saved last_id 2392 for @EAHCI
+2024-10-12 18:44:06,524 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:07,189 - logger_config - INFO - Downloaded media for message 2391
+2024-10-12 18:44:07,191 - logger_config - INFO - Saved last_id 2391 for @EAHCI
+2024-10-12 18:44:07,192 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:07,680 - logger_config - INFO - Downloaded media for message 2390
+2024-10-12 18:44:07,681 - logger_config - INFO - Saved last_id 2390 for @EAHCI
+2024-10-12 18:44:07,683 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:09,432 - logger_config - INFO - Downloaded media for message 2389
+2024-10-12 18:44:09,432 - logger_config - INFO - Saved last_id 2389 for @EAHCI
+2024-10-12 18:44:09,433 - logger_config - INFO - Saved last_id 2388 for @EAHCI
+2024-10-12 18:44:09,433 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:10,183 - logger_config - INFO - Downloaded media for message 2387
+2024-10-12 18:44:10,185 - logger_config - INFO - Saved last_id 2387 for @EAHCI
+2024-10-12 18:44:10,186 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:11,626 - logger_config - INFO - Downloaded media for message 2386
+2024-10-12 18:44:11,628 - logger_config - INFO - Saved last_id 2386 for @EAHCI
+2024-10-12 18:44:11,630 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:11,986 - logger_config - INFO - Downloaded media for message 2385
+2024-10-12 18:44:11,988 - logger_config - INFO - Saved last_id 2385 for @EAHCI
+2024-10-12 18:44:11,988 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:12,328 - logger_config - INFO - Downloaded media for message 2384
+2024-10-12 18:44:12,330 - logger_config - INFO - Saved last_id 2384 for @EAHCI
+2024-10-12 18:44:12,331 - logger_config - INFO - Saved last_id 2383 for @EAHCI
+2024-10-12 18:44:12,332 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:13,659 - logger_config - INFO - Downloaded media for message 2382
+2024-10-12 18:44:13,660 - logger_config - INFO - Saved last_id 2382 for @EAHCI
+2024-10-12 18:44:13,660 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:14,762 - logger_config - INFO - Downloaded media for message 2379
+2024-10-12 18:44:14,764 - logger_config - INFO - Saved last_id 2379 for @EAHCI
+2024-10-12 18:44:14,765 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-12 18:44:15,081 - logger_config - INFO - Downloaded media for message 2378
+2024-10-12 18:44:15,082 - logger_config - INFO - Saved last_id 2378 for @EAHCI
+2024-10-12 18:44:15,083 - logger_config - INFO - Scraped @EAHCI

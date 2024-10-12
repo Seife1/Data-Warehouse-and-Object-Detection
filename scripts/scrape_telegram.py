@@ -14,7 +14,7 @@ phone = os.getenv('PHONE_NUMBER')
 from logger_config import setup_logging
 
 # Set up logging
-logger = setup_logging()
+logger = setup_logging(log_file='./logs/scrape_telegram.log',)
 
 # Set up Telegram client with scrapping session file
 client = TelegramClient('scrapping_session', api_id, api_hash)
