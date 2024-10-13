@@ -39,7 +39,7 @@ root/
 ```
 
 ## 4. Usage
-**Data Scraping**
+### **Data Scraping**
 
 1. Set up Telegram API.
     - Ensure you have your Telegram API credentials set up.
@@ -49,7 +49,7 @@ python3 scripts/scrape_telegram.py
 ```
 - This script will scrape data from the specified Telegram channels and store the raw data in the data/raw/ directory.
 
-**Data Cleaning**
+### **Data Cleaning**
 
 After scraping the data, you'll need to clean it to ensure consistency and prepare it for transformation and analysis.
 
@@ -65,5 +65,20 @@ After cleaning, data will be exported to a table called cleaned_scraped_data in 
 
     Note: You can check the detailed logs in logs/data_preparation.log for the cleaning process.
 
+### **Data Transformation**
+
+The data transformation process leverages DBT (Data Build Tool) to perform complex transformations and modeling on the cleaned data stored in the PostgreSQL database.
+
+The DBT project for this pipeline is located in the `./dbt/Ethio_Medical_Business/` directory. This project uses DBT to define and run transformations, ensuring the data is structured for efficient analysis.
+
+For more detailed instructions on how to set up and use DBT for this project, refer to the [Ethio Medical Business DBT Project README](./dbt/Ethio_Medical_Business/README.md).
+
+**Overview of DBT Workflow:**
+1. Install and configure DBT.
+2. Define transformations using DBT models.
+3. Run DBT commands to transform the data.
+4. Test and document the transformations for accuracy and transparency.
+
+For an in-depth guide, check the linked [README](./dbt/Ethio_Medical_Business/README.md).
 
 
