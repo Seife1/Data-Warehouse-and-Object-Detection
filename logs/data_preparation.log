@@ -1,1 +1,21 @@
 2024-10-12 18:47:08,860 - logger_config - INFO - Logging is set up.
+2024-10-12 18:56:40,530 - logger_config - INFO - There are 0 duplicated rows in the data
+2024-10-12 18:57:41,378 - logger_config - INFO - 6 rows dropped where both Message and Media Path were NaN
+2024-10-12 18:58:34,969 - logger_config - INFO - 18 missing messages filled
+2024-10-12 18:58:34,970 - logger_config - INFO - 3 missing media paths filled
+2024-10-12 19:01:46,871 - logger_config - INFO - 0 missing messages filled
+2024-10-12 19:01:46,872 - logger_config - INFO - 0 missing media paths filled
+2024-10-12 19:03:19,069 - logger_config - INFO - 0 missing messages filled
+2024-10-12 19:03:19,069 - logger_config - INFO - 0 missing media paths filled
+2024-10-13 05:38:02,388 - logger_config - INFO - Logging is set up.
+2024-10-13 05:38:02,689 - logger_config - INFO - There are 0 duplicated rows in the data
+2024-10-13 05:38:02,811 - logger_config - INFO - 6 rows dropped where both Message and Media Path were NaN
+2024-10-13 05:38:02,905 - logger_config - INFO - 0 missing messages filled
+2024-10-13 05:38:02,906 - logger_config - INFO - 0 missing media paths filled
+2024-10-13 05:41:50,031 - logger_config - INFO - Logging is set up.
+2024-10-13 05:41:50,273 - logger_config - INFO - There are 0 duplicated rows in the data
+2024-10-13 05:41:50,354 - logger_config - INFO - 6 rows dropped where both Message and Media Path were NaN
+2024-10-13 05:41:50,423 - logger_config - INFO - 18 missing messages filled
+2024-10-13 05:41:50,425 - logger_config - INFO - 3 missing media paths filled
+2024-10-13 05:45:26,087 - logger_config - INFO - Database engine created successfully!
+2024-10-13 05:45:26,256 - logger_config - INFO - Data exported successfully to table 'cleaned_scraped_data'!
