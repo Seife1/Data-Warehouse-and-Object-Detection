@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: week_7
+    database: week_7  # Ensure this matches your database name
+    schema: public      # The table resides in the public schema
+    tables:
+      - name: cleaned_scraped_data
