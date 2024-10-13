@@ -53,9 +53,9 @@ To ensure data quality and provide context for the transformations, you can use 
 ```bash
 dbt test
 ```
-Here is a sample image from the `../../data/random` folder:
+Here is a sample image from the `root` folder:
 
-![Sample Image](../../data/random/dbt_test.jpg)
+![Sample Image](../../dbt_test.jpg)
 
 * **Generate Documentation**: Create documentation for your models and transformations:
 
@@ -69,6 +69,6 @@ dbt docs generate
 dbt docs serve
 ```
 
-Here is a sample image from the `../../data/random` folder:
+Here is a sample image from the `root` folder:
 
-![Sample Image](../../data/random/sample_generated_doc.jpg)
+![Sample Image](../../sample_generated_doc.jpg)
