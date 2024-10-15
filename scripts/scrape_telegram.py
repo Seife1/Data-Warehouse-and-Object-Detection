@@ -116,7 +116,7 @@ async def main():
 
         with open('./data/raw/scraped_data.csv', 'a', newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
-            writer.writerow(['Channel Title', 'Channel Username', 'ID', 'Message', 'Date', 'Media Path'])
+            writer.writerow(['channel_title', 'channel_username', 'id', 'message', 'date', 'media_path'])
 
             channels = [
                 '@yetenaweg',
