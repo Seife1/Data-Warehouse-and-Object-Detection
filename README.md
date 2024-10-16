@@ -81,4 +81,37 @@ For more detailed instructions on how to set up and use DBT for this project, re
 
 For an in-depth guide, check the linked [README](./dbt/Ethio_Medical_Business/README.md).
 
+### **Object Detection**
 
+The object detection step is performed using a script in `notebooks/2_YOLO_ObjectDetection.ipynb`, utilizing the YOLOv5 algorithm implemented in `PyTorch`. YOLO (You Only Look Once) is an open-source software tool known for its efficiency in real-time object detection from images. The images for this project are collected from various Telegram channels through scraping.
+
+#### Model Setup:
+To set up the YOLOv5 model, follow these steps:
+```bash
+# Clone the YOLOv5 repository
+git clone https://github.com/ultralytics/yolov5.git
+cd yolov5
+# Install the necessary dependencies
+pip install -r requirements.txt
+```
+
+The detection results are stored in the `YOLO` folder for integration and enrichment into the larger data pipeline.
+
+For each series of images:
+- Multiple objects are detected in each image, with labels such as `people`, `bottles`, and other items being identified.
+- Confidence levels for the detected objects vary, meaning the model is more certain about some objects than others.
+- In some cases, no objects were detected, resulting in empty detection outputs for those images.
+
+The results, including labels, confidence scores, and bounding box coordinates, are saved as CSV files in the specified `YOLO` directory. These CSV files are used for further analysis and can be integrated into the data enrichment pipeline.
+
+### **FastAPI Application**
+
+The FastAPI application is responsible for managing the scraped data from Telegram channels. It provides full CRUD (Create, Read, Update, Delete) functionality, enabling users to interact with the PostgreSQL database through various API endpoints. The application handles data validation using Pydantic and ensures smooth database interactions with SQLAlchemy.
+
+For more details on setting up and using the FastAPI application, please refer to the [FastAPI README](./fast_api/README.md).
+
+## 5. Logging
+Check logs in the logs/ folder.
+
+## 6. License
+MIT [License](LICENCE).
