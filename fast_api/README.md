@@ -38,12 +38,24 @@ In `schemas.py`, define Pydantic schemas to validate and serialize input/output 
 ### 6. CRUD Operations
 CRUD (Create, Read, Update, Delete) operations are implemented in `crud.py`. This includes functions for adding new data, fetching individual or multiple records, and updating or deleting entries.
 
-### 7. Creating API Endpoints
-API endpoints are defined in `main.py`. The key endpoints include:
+### 7. API Endpoints
+API endpoints are defined in `main.py` and categorized as follows:
 
-- **POST /items/**: Create a new item.
-- **GET /items/**: Fetch a list of items.
-- **GET /items/{item_id}**: Fetch a specific item by ID.
+#### **System & Health**
+- **GET /**: Welcome metadata and available route catalog.
+- **GET /health**: Service health check and PostgreSQL connectivity status.
+
+#### **Warehouse & Analytics**
+- **GET /api/v1/channels**: List distinct scraped medical channels and message volumes.
+- **GET /api/v1/analytics/summary**: Aggregate metrics per channel (message counts, first/last message dates) mirroring DBT transformations.
+
+#### **Computer Vision (YOLO)**
+- **GET /api/v1/detections**: Query object detection results with optional `label` and `min_confidence` filters.
+
+#### **Messages CRUD**
+- **POST /items/**: Create a new scraped message record.
+- **GET /items/**: Fetch paginated messages (`skip`, `limit`).
+- **GET /items/{item_id}**: Fetch a specific message by ID.
 
 ### 8. Running the Application
 To start the FastAPI server, run the following command:
