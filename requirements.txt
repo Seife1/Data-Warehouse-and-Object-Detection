@@ -1,5 +1,29 @@
-pyaes==1.6.1
-pyasn1==0.6.1
-python-dotenv==1.0.1
-rsa==4.9
-Telethon==1.37.0
+# --- Core & Environment ---
+python-dotenv>=1.0.1
+pydantic>=2.0.0
+
+# --- Telegram Data Scraping ---
+Telethon>=1.37.0
+rsa>=4.9
+pyaes>=1.6.1
+pyasn1>=0.6.1
+
+# --- Data Engineering & PostgreSQL Storage ---
+pandas>=2.0.0
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.9
+
+# --- Analytics Engineering (dbt) ---
+dbt-core>=1.7.0
+dbt-postgres>=1.7.0
+
+# --- Computer Vision & Object Detection (YOLO) ---
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python-headless>=4.8.0
+matplotlib>=3.7.0
+
+# --- API Service & Serving ---
+fastapi>=0.104.0
+uvicorn[standard]>=0.23.0
