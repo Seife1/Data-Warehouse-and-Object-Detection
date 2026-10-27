@@ -61,15 +61,15 @@ The API can be tested using tools like Thunder Client, Postman, or cURL. Screens
 
 - **GET /items/**: Fetch all items.
 
-![Sample Image](../all_items.jpg)
+![Sample Image](../docs/images/all_items.jpg)
 
 - **GET /items/{item_id}**: Fetch a specific item by ID.
 
-![Sample Image](../one_item.jpg)
+![Sample Image](../docs/images/one_item.jpg)
 
 - **POST /items/**: Create a new item.
 
-![Sample Image](../new_item.jpg)
+![Sample Image](../docs/images/new_item.jpg)
 
 ## Conclusion
 This FastAPI application provides a complete solution for managing scraped data from Telegram channels, with full CRUD functionality and PostgreSQL as the database backend. Future improvements could include adding user authentication, enhancing error handling, and implementing update/delete functionalities.

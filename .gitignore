@@ -1,5 +1,56 @@
-.env
-venv
-scrapping_session.session
-data
+# Python byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 
+# Environments
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+env/
+ENV/
+
+# Telegram Scraper sessions & credentials
+*.session
+*.session-journal
+scrapping_session.session
+
+# Raw scraped media & binary payloads
+media/
+data/raw/
+data/cleaned/
+*.mp4
+*.avi
+*.mov
+
+# YOLO / Computer Vision detection outputs and weights
+YOLO/detected_results*/
+runs/
+yolov5/
+*.pt
+*.onnx
+
+# DBT artifacts & logs
+dbt/logs/
+dbt/Ethio_Medical_Business/target/
+dbt/Ethio_Medical_Business/dbt_packages/
+dbt/Ethio_Medical_Business/logs/
+
+# Logging
+logs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

@@ -55,7 +55,7 @@ dbt test
 ```
 Here is a sample image from the `root` folder:
 
-![Sample Image](../../dbt_test.jpg)
+![Sample Image](../../docs/images/dbt_test.jpg)
 
 * **Generate Documentation**: Create documentation for your models and transformations:
 
@@ -69,6 +69,6 @@ dbt docs generate
 dbt docs serve
 ```
 
-Here is a sample image from the `root` folder:
+Here is a sample image from the `docs/images` folder:
 
-![Sample Image](../../sample_generated_doc.jpg)
+![Sample Image](../../docs/images/sample_generated_doc.jpg)
