@@ -1,5 +1,6 @@
 # Ethiopian Medical Data Warehouse & Multimodal YOLO Object Detection Pipeline
 
+[![Version](https://img.shields.io/badge/Version-1.1.0-blue.svg)](README.md)
 [![CI Pipeline](https://github.com/Seife1/Data-Warehouse-and-Object-Detection/actions/workflows/ci.yml/badge.svg)](https://github.com/Seife1/Data-Warehouse-and-Object-Detection/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED.svg?logo=docker&logoColor=white)](https://www.docker.com/)
@@ -245,6 +246,16 @@ curl -X POST "http://localhost:8000/api/v1/detect?confidence=0.25&include_previe
 
 ---
 
-## 8. License
+## 8. Recent Updates
+
+### [v1.1.0] - 2026-10-28
+- **dbt Dimensional Lakehouse:** Implemented star-schema staging (`stg_telegram_messages`), dimensions (`dim_channels`), message facts (`fct_channel_messages`), and multimodal computer vision marts (`fct_image_detections`) with schema quality tests.
+- **Live YOLO Multimodal Inference:** Added `POST /api/v1/detect` endpoint supporting image uploads, bounding box extraction, latency calculation, and base64 preview rendering.
+- **One-Command Orchestration:** Packaged PostgreSQL 15 and FastAPI microservice into a Docker Compose stack with automated startup database seeding (`scripts/init_db.py`).
+- **Automated CI/CD:** Added Pytest test suite (6 passing tests) and GitHub Actions CI workflow for automated linting, test runs, and Docker build validation.
+
+---
+
+## 9. License
 
 Distributed under the MIT License. See [LICENCE.md](LICENCE.md) for more information.
