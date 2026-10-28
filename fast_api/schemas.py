@@ -46,6 +46,15 @@ class DetectionResult(BaseModel):
     xmax: float
     ymax: float
 
+class LiveInferenceResponse(BaseModel):
+    engine: str
+    image_width: int
+    image_height: int
+    detected_count: int
+    inference_time_ms: float
+    detections: List[DetectionResult]
+    annotated_image_base64: Optional[str] = None
+
 # ==========================================
 # Service Health Schema
 # ==========================================

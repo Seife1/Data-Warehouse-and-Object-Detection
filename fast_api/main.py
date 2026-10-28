@@ -1,7 +1,7 @@
 import sys
 import os
 from typing import Optional, List
-from fastapi import FastAPI, Depends, HTTPException, Query
+from fastapi import FastAPI, Depends, HTTPException, Query, File, UploadFile
 from sqlalchemy.orm import Session
 from sqlalchemy import text
 
@@ -13,6 +13,7 @@ logger = setup_logging(log_file='./logs/crud.log')
 
 from fast_api.database import engine, get_db
 from fast_api import crud, models, schemas
+from fast_api.yolo_service import run_yolo_inference
 
 # Initialize database schema if database is available
 try:
@@ -24,7 +25,7 @@ app = FastAPI(
     title="Ethiopian Medical Data Warehouse & YOLO Object Detection API",
     description=(
         "Production-grade RESTful API serving scraped Telegram medical channels, "
-        "dbt dimensional aggregations, and YOLOv5 computer vision detection results."
+        "dbt dimensional aggregations, and live YOLO multimodal computer vision inference."
     ),
     version="1.0.0",
     docs_url="/docs",
@@ -45,7 +46,8 @@ def read_root():
             "messages_crud": "/items/",
             "channels": "/api/v1/channels",
             "analytics_summary": "/api/v1/analytics/summary",
-            "yolo_detections": "/api/v1/detections"
+            "warehouse_detections": "/api/v1/detections",
+            "live_inference": "/api/v1/detect"
         }
     }
 
@@ -117,10 +119,41 @@ def list_detections(
     label: Optional[str] = Query(None, description="Filter detections by object class (e.g. 'person', 'bottle')"),
     min_confidence: float = Query(0.0, ge=0.0, le=1.0, description="Minimum confidence threshold (0.0 to 1.0)")
 ):
-    """Query YOLOv5 detection outputs extracted from scraped medical images."""
+    """Query YOLO detection outputs extracted from warehouse medical images."""
     try:
         detections = crud.get_detections(label=label, min_confidence=min_confidence)
         return detections
     except Exception as e:
         logger.error(f"Error fetching YOLO detections: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.post(
+    "/api/v1/detect",
+    response_model=schemas.LiveInferenceResponse,
+    tags=["YOLO Computer Vision"],
+    summary="Run live YOLO object detection on an uploaded image"
+)
+async def detect_objects(
+    file: UploadFile = File(..., description="Image file (JPG, PNG) for object detection"),
+    confidence: float = Query(0.25, ge=0.0, le=1.0, description="Confidence threshold"),
+    include_preview: bool = Query(True, description="Include base64 annotated image preview")
+):
+    """
+    Accepts an uploaded image file, executes YOLO multimodal object detection,
+    and returns detected bounding boxes, object classes, confidence scores,
+    inference latency, and an annotated base64 preview.
+    """
+    if file.content_type and not file.content_type.startswith("image/"):
+        raise HTTPException(status_code=400, detail="Uploaded file must be an image (JPEG, PNG).")
+    
+    image_bytes = await file.read()
+    try:
+        result = run_yolo_inference(
+            image_bytes=image_bytes,
+            confidence_threshold=confidence,
+            render_annotation=include_preview
+        )
+        return result
+    except Exception as e:
+        logger.error(f"Inference error on {file.filename}: {e}")
+        raise HTTPException(status_code=500, detail=f"Image inference failed: {str(e)}")
