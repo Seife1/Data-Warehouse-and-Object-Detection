@@ -1,0 +1,70 @@
+version: 2
+
+models:
+  - name: stg_telegram_messages
+    description: "Staging model normalizing raw scraped Telegram messages."
+    columns:
+      - name: message_id
+        description: "Primary key for each message."
+        tests:
+          - unique
+          - not_null
+      - name: channel_title
+        description: "Cleaned channel title."
+        tests:
+          - not_null
+      - name: has_media
+        description: "Boolean flag indicating if the message contains an image or video."
+        tests:
+          - not_null
+
+  - name: dim_channels
+    description: "Channel dimension table capturing aggregated volume metrics and posting history."
+    columns:
+      - name: channel_key
+        description: "Primary key MD5 hash of channel title and handle."
+        tests:
+          - unique
+          - not_null
+      - name: channel_title
+        description: "Display title of the Telegram channel."
+        tests:
+          - not_null
+      - name: total_messages
+        description: "Total count of messages published by this channel."
+        tests:
+          - not_null
+
+  - name: fct_channel_messages
+    description: "Core fact table for Telegram messages linked to the channel dimension."
+    columns:
+      - name: message_id
+        description: "Surrogate key for the message record."
+        tests:
+          - unique
+          - not_null
+      - name: channel_key
+        description: "Foreign key referencing dim_channels."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_channels')
+              field: channel_key
+
+  - name: fct_image_detections
+    description: "Multimodal computer vision fact table with YOLO object detections."
+    columns:
+      - name: detection_id
+        description: "Surrogate key for the detection."
+        tests:
+          - unique
+          - not_null
+      - name: object_class
+        description: "Class detected by YOLO (e.g., person, bottle, package)."
+        tests:
+          - not_null
+      - name: confidence_tier
+        description: "Categorical confidence grouping (High, Medium, Low)."
+        tests:
+          - accepted_values:
+              values: ['High', 'Medium', 'Low']

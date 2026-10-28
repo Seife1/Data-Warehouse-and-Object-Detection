@@ -2,7 +2,21 @@ version: 2
 
 sources:
   - name: week_7
-    database: week_7  # Ensure this matches your database name
-    schema: public      # The table resides in the public schema
+    description: "PostgreSQL lakehouse table containing cleaned Telegram messages scraped from Ethiopian medical channels."
+    schema: public
     tables:
       - name: cleaned_scraped_data
+        description: "Scraped and deduplicated messages with timestamps, channels, and media paths."
+        columns:
+          - name: id
+            description: "Unique surrogate key of the message record."
+          - name: channel_title
+            description: "Display title of the Telegram channel."
+          - name: channel_username
+            description: "Unique @handle of the Telegram channel."
+          - name: message
+            description: "Raw text content of the message."
+          - name: date
+            description: "Publication timestamp of the message."
+          - name: media_path
+            description: "Relative local path to downloaded image/video media."

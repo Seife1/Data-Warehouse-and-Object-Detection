@@ -1,0 +1,11 @@
+detection_id,image_name,object_class,confidence,xmin,ymin,xmax,ymax
+1,image0.jpg,person,0.8965,1062.42,256.87,1280.00,715.80
+2,image0.jpg,person,0.7616,3.59,14.82,235.49,715.39
+3,image0.jpg,person,0.7538,1189.63,24.73,1261.44,216.16
+4,image0.jpg,bottle,0.6835,923.32,35.27,972.87,145.40
+5,image0.jpg,package,0.6195,1013.90,33.37,1077.07,195.64
+6,image0.jpg,bottle,0.5517,796.91,533.16,849.97,685.92
+7,image0.jpg,person,0.5496,513.25,57.43,566.19,183.22
+8,image0.jpg,medical_equipment,0.4593,392.04,67.67,453.86,189.96
+9,image0.jpg,bottle,0.4349,350.25,70.15,377.14,153.96
+10,image0.jpg,package,0.2907,1058.00,29.22,1095.53,142.62
